@@ -1,0 +1,61 @@
+%!TEX root = thesis.tex
+
+\chapter{Conclusion}
+
+\section{Dissertation Contribution}
+
+This work proposed and analyzed methods to design controllers that combine conventional control methods with Reinforcement Learning (RL). Although RL can be used to learn agents without needing domain knowledge of dynamics and control theory, RL often requires long training times, has poor initial performance, and lacks performance guarantees. Conventional model-based control does not suffer from the same problems as RL, but most control problems are not amenable to analytical solutions. Combining RL with conventional control can take advantage of the strengths of both methods while limiting the drawbacks.
+
+Several combined controller architectures were proposed and evaluated for three benchmark systems. The combined controller architectures tested included those that contain model-based fixed-gain components as well as those with agent-driven gain scheduling. The combined controllers often had better initial performance compared to controllers using RL alone and reduced the required training time to achieve desirable performance from the controllers. Although not every combined controller outperformed the RL-alone controllers after training, there was always at least one combined controller with superior performance. This indicates that the combined controller architecture that results in the best performance depends on the dynamics of the system. The combined controllers were also evaluated for performance guarantees in stability and robustness. A method to improve interpretability of the policies by approximating the agents with piecewise switching controllers was also proposed. The contributions made by this work are:
+%
+% \begin{itemize}
+%     \item RL allows controllers to be learned without needing domain knowledge of dynamics or control theory and practice
+%     \item However, RL has some issues
+%     \begin{itemize}
+%         \item Slow training
+%         \item Lack of performance guarantees
+%         \item etc.
+%     \end{itemize}
+%     \item Methods to combine reinforcement learning and domain knowledge were proposed in this work
+%     \item Different combined control architectures were evaluated for a few benchmark systems
+%     \item It was found that using controllers that combined RL with components designed using domain knowledge often resulted in improved initial performance
+%     \item This reduced the required training time to achieve acceptable performance from the controller
+%     \item Given equal time to train, there was always a combined controller that performed better than the Pure RL baseline
+%     \item This is similar for the stability evaluation, where different combined controllers had better stability bounds depending on the system
+%     \item A method to interpret the agents by fitting them to a switching controller was also proposed
+%     \item We then showed a robustness analysis where sensitivity to modeling error was evaluated
+% \end{itemize}
+%
+%
+\begin{itemize}
+    \item[--] \textbf{Reduced Training Time} -- It was shown in Chapter~\ref{chapter2} that combined controllers that were appropriately designed for the system improved initial performance and reduced required training time compared to controllers using RL alone. This alleviates the main challenge preventing widespread adoption of RL for robotics beyond research settings.
+    \item[--] \textbf{Controller Design Guidelines} -- The baseline results from Chapter~\ref{chapter2} were used to generate guidelines for designing combined controllers. These guidelines facilitate the process for designing combined controllers and reduce barriers to adopting RL.
+    \item[--] \textbf{Improved Stability} -- Chapter~\ref{chapter3} presented stability evaluations for the controllers showing that appropriately designed controllers tended to have improved BIBO and Lyapunov stability compared to the RL-alone controllers.
+    \item[--] \textbf{Analysis of Robustness} -- Chapter~\ref{chapter4} presented an analysis of the combined controllers for robustness to modeling error. These evaluations showed that combined controllers and RL-alone controllers tended to have comparable insensitivity to modeling error.
+    \item[--] \textbf{Agent Interpretation Method} -- A method was proposed in Chapter~\ref{chapter5} to improve interpretability of agents by approximating them as piecewise switching controllers. This provides more concise representations of the agent that facilitate intuitively understanding its behavior.
+\end{itemize}
+
+% \section{Contributions}
+% \rnotes{Maybe give these more substance. What are the ramifications of each contribution?}
+% \begin{itemize}
+% 	\item reduce required training time to achieve desirable performance compared to training RL without domain knowledge
+% 	\item provide an initial policy that is safe to use on a physical system before optimizing
+% 	\item learn policies that provide bounds on stability and can be analyzed using  conventional stability analysis tools
+% 	\item interpret policy behavior according to conventional control methods
+% \end{itemize}
+% %
+
+\section{Future Work}
+
+Combining conventional model-based control with RL can provide better initial performance and require shorter training time than when using RL alone. This enables future work to investigate the use of combined controllers for sim-to-real. Ordinarily, an agent is trained in simulation before being transferred to a physical system. Combined controllers may be able to accelerate this process since less training is required. Additionally, the initial policy with the combined controller may be safe to enable training on the physical system without pretraining in simulation.
+
+In this work, training was done in a fully-known and static environment. Future work may investigate the design of combined controllers in unknown or dynamic environments. Combined controllers could be designed to be robust to the changes in the environment, or they could be applied as adaptive controllers where the RL component trains continuously. Appropriate design of the combined controller would depend on the system dynamics and the expected variability in the environment.
+
+The method to improve the interpretability of the agents by modeling them as switching controllers resulted in accurate approximations of the double pendulum controllers. However, the switching controller approximations for the inverted pendulum had low accuracy when using generic curve fit functions. Future work may investigate methods to manually interpret the agent in order to generate models that accurately approximate the contributions of the states to the agent output. These models can then be combined to provide a more comprehensive interpretation of the behavior of the agent.
+
+% \begin{itemize}
+%     \item Switching controller method for interpetability worked ok for the double pendulum crane
+%     \item It did not work for the inverted pendulum
+%     \item Future work can involve developing methods to manually interpret the agents in order to generate models for the contributions of the different states
+%     \item These models may then be combined to provide a full interpretation of the behavior of the agent
+% \end{itemize}

@@ -1,0 +1,162 @@
+%!TEX root = thesis.tex
+
+\chapter*{Appendix A: Environment Configuration}
+\addcontentsline{toc}{chapter}{Appendix A}
+
+All agents were trained using Twin Delay Deep Deterministic Policy Gradient (TD3). Training was implemented using Python 3.10.10, Stable Baselines3 1.5.0, and NumPy 1.24.3.
+The same set of five seeds for the random number generator were used to train the five agents for each controller type: [699, 227, 788, 316, 204].
+% The five agents trained for each controller type were all seeded with the same set of five values across all three benchmark systems: [699 227 788 316 204].
+The standard hyperparameters from the original TD3 paper~\cite{Fujimoto:2018a} and the defaults from the Stable Baselines3 implementation were used to train the agents for the duffing oscillator and the double-pendulum crane. The hyperparameters used to train the inverted pendulum agents were tuned using RL Baselines3 Zoo.
+% Unless otherwise indicated, the same hyperparameters used in the original TD3 paper~\cite{Fujimoto:2018a} and the defaults from the Stable Baselines3 implementation were used in this work.
+
+\section*{Environment Parameters}
+\addcontentsline{toc}{section}{Environment Parameters}
+
+% \begin{table}[H]
+%     \centering
+%     % \begin{tabular}{l l l}
+%     \begin{tabular}{ m{1.9in} m{1.9in} m{1.9in} }
+%      Duffing Oscillator & Double Pendulum Crane & Inverted Pendulum\\
+%      \hline
+%      $m$: 1.0\si{\kilogram} & $m_h$: 0.0864\si{\kilogram} & $\omega_n$: $2\pi$ \si{\radian\per{\second}}\\
+%     $\alpha$: $4\pi^2$\si{\newton\per{\meter}} & $m_p$: 0.0809\si{\kilogram} & $l$: $\frac{g}{\omega_n^2}$\si{\meter}\\
+%     $\beta$: $\frac{1}{6}\alpha$\si{\newton\per\meter^3} & $l_1$: 0.73\si{\meter} & $\Delta t$: $0.05$\si{\second}\\
+%     $\zeta$: 0.01 & $l_2$: 0.15\si{\meter} & $x \in [-25,25]$\si{\meter}\\
+%     $c$: 2$\zeta\sqrt{\frac{\alpha}{m}}m$ & $\Delta t$: 0.05\si{\second} & $\dot{x} \in [-31.6, 31.6]$\si{\meter\per{\second}}\\
+%     $\Delta t$: 0.02\si{\second} & $x \in [-0.37, 0.37]$\si{\meter} & $u \in [-10,10]$\si{\meter\per\second^2}\\
+%     $x_d$ $\in$ $[0,1]$\si{\meter} & $\dot{x} \in [-0.45, 0.45]$\si{\meter\per{\second}} & $\omega$: $\frac{1}{4\pi^2}$\\
+%     $u \in [-50,50]$\si{\newton} & $u \in [-1.8,1.8]$\si{\meter\per\second^2} &\\
+%     & $\zeta = \frac{\sqrt{2}}{2}$ & \\
+%     & $k_p = u_{\text{max}}/x_{\text{max}}$ & \\
+%     & $k_d = 2\zeta\sqrt{k_p}$ & \\
+%     & $\omega_x$: $\frac{1}{0.37^2}$ & \\
+%     & $\omega_{\theta_1}$: $(\frac{12}{\pi})^2$ & \\
+%     & $\omega_{\theta_2}$: $(\frac{12}{\pi})^2$ & \\
+%     \end{tabular}
+% \end{table}
+
+\subsection*{Duffing Oscillator}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l c l}
+        Parameter & Variable & Value\\
+        \hline
+        Mass & $m$ & 1.0\si{\kilogram}\\
+        Linear Stiffness & $\alpha$ & $4\pi^2$\si{\newton\per{\meter}}\\
+        Nonlinear Stiffness & $\beta$ & $\frac{1}{6}\alpha$\si{\newton\per\meter^3}\\
+        Damping Ratio & $\zeta$ & 0.01\\
+        Damping Coefficient & $c$ & 2$\zeta\sqrt{\frac{\alpha}{m}}m$\\
+        Time Step & $\Delta t$ & 0.02\si{\second}\\
+        Desired Displacement Limits & $x_d$ & $[0,1]$\si{\meter}\\
+        Force Input Limits & $u$ & $[-50,50]$\si{\newton}\\
+    \end{tabular}
+\end{table}
+
+% \begin{itemize}
+%     \item $m$: 1.0\si{\kilogram}
+%     % \item natural frequency: $2\pi$
+%     \item $\alpha$: $4\pi^2$\si{\newton\per{\meter}}
+%     \item $\beta$: $\frac{1}{6}\alpha$\si{\newton\per\meter^3}
+%     \item $\zeta$: 0.01
+%     \item $c$: 2$\zeta\sqrt{\frac{\alpha}{m}}m$
+%     \item $\Delta t$: 0.02\si{\second}
+%     \item $x_d$ $\in$ $[0,1]$\si{\meter}
+%     \item $u \in [-50,50]$\si{\newton}
+% \end{itemize}
+
+\subsection*{Double Pendulum Crane}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l c l}
+         Parameter & Variable & Value\\
+        \hline
+         Hook Mass & $m_h$ & 0.0864\si{\kilogram}\\
+         Payload Mass & $m_p$ & 0.0809\si{\kilogram}\\
+         Hoist Length & $l_1$ & 0.73\si{\meter}\\
+         Rigging Length & $l_2$ & 0.15\si{\meter}\\
+         Time Step & $\Delta t$ & 0.05\si{\second}\\
+         Trolley Displacement Limits & $x$ & $[-0.37, 0.37]$\si{\meter}\\
+         Trolley Velocity Limits & $\dot{x}$ & $[-0.45, 0.45]$\si{\meter\per{\second}}\\
+         Acceleration Input Limits & $u$ & $[-1.8,1.8]$\si{\meter\per\second^2}\\
+         Damping Ratio & $\zeta$ & $\frac{\sqrt{2}}{2}$\\
+         Proportional Gain & $k_p$ & $u_{\text{max}}/x_{\text{max}}$\\
+         Derivative Gain & $k_d$ & $2\zeta\sqrt{k_p}$\\
+         Reward Weight for $x$ & $\omega_x$ & $\frac{1}{0.37^2}$\\
+         Reward Weight for $\theta_1$ & $\omega_{\theta_1}$ & $(\frac{12}{\pi})^2$\\
+         Reward Weight for $\theta_2$ & $\omega_{\theta_2}$ & $(\frac{12}{\pi})^2$\\
+    \end{tabular}
+\end{table}
+
+% \begin{itemize}
+%     \item $m_h$: 0.0864\si{\kilogram}
+%     \item $m_p$: 0.0809\si{\kilogram}
+%     \item $l_1$: 0.73\si{\meter}
+%     \item $l_2$: 0.15\si{\meter}
+%     \item $\Delta t$: 0.05\si{\second}
+%     \item $x \in [-0.37, 0.37]$\si{\meter}
+%     \item $\dot{x} \in [-0.45, 0.45]$\si{\meter\per{\second}}
+%     \item $u \in [-1.8,1.8]$\si{\meter\per\second^2}
+%     \item $\zeta = \frac{\sqrt{2}}{2}$
+%     \item $k_p = u_{\text{max}}/x_{\text{max}}$
+%     \item $k_d = 2\zeta\sqrt{k_p}$
+%     \item $\omega_x$: $\frac{1}{0.37^2}$
+%     \item $\omega_{\theta_1}$: $(\frac{12}{\pi})^2$
+%     \item $\omega_{\theta_2}$: $(\frac{12}{\pi})^2$
+% \end{itemize}
+
+\subsection*{Inverted Pendulum}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l c l}
+         Parameter & Variable & Value\\
+        \hline
+         Natural Frequency & $\omega_n$ & $2\pi$ \si{\radian\per{\second}}\\
+         Pendulum Length & $l$ & $g$/$\omega_n^2$\si{\meter}\\
+         Time Step & $\Delta t$ & $0.05$\si{\second}\\
+         Cart Displacement Limits & $x$ & $[-25,25]$\si{\meter}\\
+         Cart Velocity Limits & $\dot{x}$ & $[-31.6, 31.6]$\si{\meter\per{\second}}\\
+         Acceleration Input Limits & $u$ & $[-10,10]$\si{\meter\per\second^2}\\
+         Reward Weight & $\omega$ & $\frac{1}{4\pi^2}$\\
+    \end{tabular}
+\end{table}
+
+% \begin{itemize}
+%     \item $\omega_n$: $2\pi$ \si{\radian\per{\second}}
+%     \item $l$: $\frac{g}{\omega_n^2}$\si{\meter}
+%     \item $\Delta t$: $0.05$\si{\second}
+%     \item $x \in [-25,25]$\si{\meter}
+%     \item $\dot{x} \in [-31.6, 31.6]$\si{\meter\per{\second}}
+%     \item $u \in [-10,10]$\si{\meter\per\second^2}
+%     \item $\omega$: $\frac{1}{4\pi^2}$
+% \end{itemize}
+
+\section*{Hyperparameters for Inverted Pendulum}
+\addcontentsline{toc}{section}{Hyperparameters for Inverted Pendulum}
+
+Hyperparameters used to train the inverted pendulum agents were tuned using RL Baselines3 Zoo.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l c c c}
+        & Pure RL & RL-LQR & S-RL-LQR \\
+        \hline
+        Learning Rate & 0.003 & 0.0018845 & 0.003 \\
+        Target Update Rate & 0.001 & 0.001 & 0.001  \\
+        Buffer Size & 10000 & 10000 & 10000 \\
+        Batch Size & 1024 & 64 & 1024 \\
+        Discount Rate & 0.99 & 0.9999 & 0.99 \\
+        Action Noise SD & 0.7 & 0.55 & 0.7 \\
+    \end{tabular}
+\end{table}
+
+\section*{Reward Function Design}
+\addcontentsline{toc}{section}{Reward Function Design}
+
+The reward functions for this work were all quadratic, which is a common choice of cost functions for optimal control. The terms of each cost function were multiplied by a weighting factor, $\omega$. Each weighting factor was chosen according to Bryson's rule, which is a heuristic for choosing weights based on maximum tolerable values of the states: $\omega=\frac{1}{(\text{maximum tolerable value})^2}$. This normalizes each term of a multi-objective reward function.
+%
+% \begin{equation*}
+%     \omega_i=\frac{1}{\boldsymbol{s}_i}
+% \end{equation*}

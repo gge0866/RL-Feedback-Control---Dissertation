@@ -1,0 +1,9 @@
+%!TEX root = thesis.tex
+
+\begin{abstract}
+
+In order to utilize conventional control methods, it is necessary to have knowledge of both the system model and control theory. Even with this domain knowledge, there are many problems, particularly for optimal control, that are not amenable to analytical solution methods.
+%
+Numerical optimal controllers and methods to iteratively learn optimal controllers are necessary for these cases. Reinforcement learning is one class of data-driven optimal control methods where an agent learns to control the system through iterative interaction. Although reinforcement learning can be implemented with no domain knowledge, the required iteration often makes training the agent time-consuming. Additionally, it is often difficult to generate an intuitive understanding of the control law that the agent learned and difficult to generate performance guarantees for the agent. These issues are addressed in this work by combining reinforcement learning with controllers designed using domain knowledge. Several combined controller architectures where developed and tested on multiple benchmark systems. It was shown that well-designed combined controllers often provided an improvement in pre-training performance, a reduction in required training time, and improved performance after training compared to using reinforcement learning agents alone. A method to improve the interpretability of the behavior of the agents by modeling the agent as a switching controller was also proposed. The stability and robustness of the combined controllers were also analyzed. Finally, an evaluation of the current commercializability of the proposed methods was presented along with a plan to increase its market readiness.
+
+\end{abstract}

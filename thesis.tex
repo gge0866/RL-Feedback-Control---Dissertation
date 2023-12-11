@@ -1,0 +1,208 @@
+\documentclass[12pt,normalmargins]{gatech-thesis}
+\usepackage{amsmath,amssymb,latexsym,float,epsfig}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{mathtools,breqn,amsmath}
+\usepackage{amssymb}
+\usepackage{cite}
+\usepackage{bm}
+\usepackage{tikz}
+
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+
+\usepackage{tocloft}
+\usepackage{indentfirst}
+% \usepackage{etoolbox}
+\definecolor{1c1}{RGB}{188,162,6}
+\usepackage{ULL-style}
+\usepackage[shortcuts]{extdash}
+
+% Make sure that the caption labels are bold face
+\usepackage[labelfont=bf]{caption}
+
+% Packages specific to this thesis
+\usepackage[scientific-notation=true]{siunitx}
+\usepackage[english,ruled,vlined]{algorithm2e}
+
+\usepackage{multirow}
+\usepackage{placeins}
+\usepackage{array}
+
+
+% Make the captions just the way the grad school wants them :)
+\captionsetup[figure]{name={Figure},labelsep=period}
+\captionsetup[table]{labelsep=period}
+
+% Forrest Montgomery Jul 17, 2017
+% Version 1.0
+
+% Gerald Eaglin __
+% Version 1.1
+
+% newcommand for placeholder citations (\pc).
+\newcommand{\pc}{{\color{blue}[cite]}}
+% newcommand for adding "rephrase later" notes
+\newcommand{\rph}[1]{{\color{blue}#1}}
+% newcommand for read ellipses indicating more needs to written
+\newcommand{\rdots}{{\color{red}\dots}}
+% newcommand for red notes
+\newcommand{\rnotes}[1]{{\color{red}(#1)}}
+% newcommand for green text (indicates where revision/fact checking/elaboration is necessary)
+\newcommand{\what}[1]{{\color{green}(#1)}}
+
+%%%%%%%%%%%%%%%%
+% Preliminary Info
+%%%%%%%%%%%%%%%%
+% \title{{Combining Reinforcement Learning and Conventional Control}
+\title{Towards Reducing Barriers to the Adoption of Reinforcement Learning \\ by Utilizing Closed-Form Feedback Control}
+\author{Gerald Eaglin}
+\lastnamefirstname{Eaglin, Gerald}
+
+% ULL thesis guidelines Fall 2022 want department affiliations
+% ex: {Name}[Position] use \\ if you need a newline
+\committeechair{Joshua E. Vaughan, Chair}[Department of Mechanical Engineering]
+\firstreader{Alan A. Barhorst}[Department of Mechanical Engineering]
+\secondreader{Terrence L. Chambers}[Department of Mechanical Engineering]
+\thirdreader{Afef Fekih}[Department of Electrical and Computer Engineering]
+\fourthreader{Raju Gottumukkala}[Departement of Mechanical Engineering]
+\fifthreader{Peter L. Wang}[R\&D Associate Staff\\Oak Ridge National Laboratory]
+\sixthreader{Mary Farmer-Kaiser}[Dean of the Graduate School] % Pretend the dean is a reader to put her at the end of the signature page
+
+% ULL thesis guidelines Fall 2022 do not want separate signature page
+% \signaturepagetrue
+\signaturepagefalse
+
+% has the work been approved by the committee
+\hasbeenapprovedtrue
+% \hasbeenapprovedfalse
+
+\worktype{Dissertation}
+\major{Systems Engineering}
+\degree{Doctor of Philosophy}
+\undergrad{Bachelor of Science}
+\undergraduniversity{University of Louisiana at Lafayette}
+\undergradyear{Spring 2016}
+
+% Must be less than 300
+\wordsinabstract{8}
+
+% Total number of pages including the title page.
+\totalpagesinthesis{113}
+\copyrightyear{2023}
+
+% When you graduate ex: Summer 2017
+\submitdate{Fall 2023}
+
+% \bibfiles{example-thesis}
+% \bibfiles{library}
+% \bibfiles{Thesis_PP} % Why does this need to be here if the bibfile is actually included further down?
+
+
+\begin{document}
+\iraggedright
+
+% Change this if you want another bib style.
+\bibliographystyle{gatech-thesis}
+%%
+\begin{preliminary}
+
+%%%%%%%%%%%%%%%%
+% Abstract
+%%%%%%%%%%%%%%%%
+
+\input{0-0_abstract.tex}
+
+%%%%%%%%%%%%%%%%
+% Dedication -- (optional)
+%%%%%%%%%%%%%%%%
+
+\input{0-1_dedication.tex}
+
+%%%%%%%%%%%%%%%%
+% Epigraph -- A short quote suggesting the theme of the thesis,
+% or something random. This is optional.
+%%%%%%%%%%%%%%%%
+
+\input{0-2_epigraph.tex}
+
+%%%%%%%%%%%%%%%%
+% Acknowledgements
+%%%%%%%%%%%%%%%%
+
+\input{0-3_acknowledgements.tex}
+
+%%%%%%%%%%%%%%%%
+% Table of Contents, LOF, and LOT
+%%%%%%%%%%%%%%%%
+\contents
+\end{preliminary}
+
+%%%%%%%%%%%%%%%%
+% Chapter 1
+%%%%%%%%%%%%%%%%
+
+\input{1_Introduction.tex}
+
+%%%%%%%%%%%%%%%%
+% Chapter 2
+%%%%%%%%%%%%%%%%
+
+\input{2_RL_model_based_control.tex}
+
+%%%%%%%%%%%%%%%%
+% Chapter 3
+%%%%%%%%%%%%%%%%
+
+\input{3_Stability.tex}
+
+%%%%%%%%%%%%%%%%
+% Chapter 4
+%%%%%%%%%%%%%%%%
+
+\input{4_Robustness.tex}
+
+%%%%%%%%%%%%%%%%
+% Chapter 5
+%%%%%%%%%%%%%%%%
+
+\input{5_Interpretability.tex}
+
+%%%%%%%%%%%%%%%%
+% Chapter 6
+%%%%%%%%%%%%%%%%
+
+\input{6_Commercialization.tex}
+
+%%%%%%%%%%%%%%%%
+% Conclusion
+%%%%%%%%%%%%%%%%
+
+\input{7_Conclusion.tex}
+
+%%%%%%%%%%%%%%%%
+% References
+%%%%%%%%%%%%%%%%
+
+\begin{postliminary}
+\bibliography{Dissertation_bib}
+\end{postliminary}
+
+%%%%%%%%%%%%%%%%
+% Appendix
+%%%%%%%%%%%%%%%%
+
+\input{8_appendix.tex}
+
+%%%%%%%%%%%%%%%%
+% BioSketch
+%%%%%%%%%%%%%%%%
+
+\input{9_biosketch.tex}
+
+
+\end{document}
