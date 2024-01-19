@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="410" height="222" viewBox="0, 0, 410, 222">
+  <g id="Layer_1">
+    <g>
+      <path d="M5.5,24.5 L85.5,24.5 L85.5,104.5 L5.5,104.5 L5.5,24.5 z" fill="#FFFFFF"/>
+      <path d="M5.5,24.5 L85.5,24.5 L85.5,104.5 L5.5,104.5 L5.5,24.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M283.5,137.5 L363.5,137.5 L363.5,217.5 L283.5,217.5 L283.5,137.5 z" fill="#FFFFFF"/>
+      <path d="M283.5,137.5 L363.5,137.5 L363.5,217.5 L283.5,217.5 L283.5,137.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M203.5,137.5 L283.5,137.5 L283.5,217.5 L203.5,217.5 L203.5,137.5 z" fill="#FFFFFF"/>
+      <path d="M203.5,137.5 L283.5,137.5 L283.5,217.5 L203.5,217.5 L203.5,137.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M123.5,137.5 L203.5,137.5 L203.5,217.5 L123.5,217.5 L123.5,137.5 z" fill="#FFFFFF"/>
+      <path d="M123.5,137.5 L203.5,137.5 L203.5,217.5 L123.5,217.5 L123.5,137.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M43.5,137.5 L123.5,137.5 L123.5,217.5 L43.5,217.5 L43.5,137.5 z" fill="#FFFFFF"/>
+      <path d="M43.5,137.5 L123.5,137.5 L123.5,217.5 L43.5,217.5 L43.5,137.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M325.5,24.5 L405.5,24.5 L405.5,104.5 L325.5,104.5 L325.5,24.5 z" fill="#FFFFFF"/>
+      <path d="M325.5,24.5 L405.5,24.5 L405.5,104.5 L325.5,104.5 L325.5,24.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M245.5,24.5 L325.5,24.5 L325.5,104.5 L245.5,104.5 L245.5,24.5 z" fill="#FFFFFF"/>
+      <path d="M245.5,24.5 L325.5,24.5 L325.5,104.5 L245.5,104.5 L245.5,24.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M165.5,24.5 L245.5,24.5 L245.5,104.5 L165.5,104.5 L165.5,24.5 z" fill="#FFFFFF"/>
+      <path d="M165.5,24.5 L245.5,24.5 L245.5,104.5 L165.5,104.5 L165.5,24.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <g>
+      <path d="M85.5,24.5 L165.5,24.5 L165.5,104.5 L85.5,104.5 L85.5,24.5 z" fill="#FFFFFF"/>
+      <path d="M85.5,24.5 L165.5,24.5 L165.5,104.5 L85.5,104.5 L85.5,24.5 z" fill-opacity="0" stroke="#000000" stroke-width="1"/>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 45, 14.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 1</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 323, 127.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 9</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 243, 127.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 8</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 163, 127.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 7</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 83, 127.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 6</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 365, 14.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 5</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 285, 14.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 4</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 205, 14.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 3</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 125, 14.5)">
+      <tspan x="-19.512" y="3.5" font-family="TimesNewRomanPSMT" font-size="15" fill="#000000">TRL 2</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 45, 63.747)">
+      <tspan x="-15.552" y="-6.83" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Basic </tspan>
+      <tspan x="-25.652" y="9.17" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Research</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 323, 176.747)">
+      <tspan x="-34.6" y="-6.83" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Commercial </tspan>
+      <tspan x="-34.604" y="9.17" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Deployment</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 163, 176.747)">
+      <tspan x="-34.6" y="-6.83" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Commercial </tspan>
+      <tspan x="-28.526" y="9.17" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Transition</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 83, 185.417)">
+      <tspan x="-24.466" y="-15.5" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Viability </tspan>
+      <tspan x="-17.107" y="0.5" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Demo</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 205, 63.747)">
+      <tspan x="-23.136" y="-6.83" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Proof of </tspan>
+      <tspan x="-23.328" y="9.17" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Concept</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 125, 63.747)">
+      <tspan x="-32.946" y="-6.83" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Technology </tspan>
+      <tspan x="-34.61" y="9.17" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Formulation</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 285, 61.417)">
+      <tspan x="-31.097" y="-4.5" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Laboratory </tspan>
+      <tspan x="-20.508" y="11.5" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Testing</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 365, 64.162)">
+      <tspan x="-36.521" y="3.755" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Field Testing</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 243, 185.417)">
+      <tspan x="-32.946" y="-15.5" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Technology </tspan>
+      <tspan x="-17.107" y="0.5" font-family="TimesNewRomanPSMT" font-size="14" fill="#000000">Demo</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="251" height="230" viewBox="0, 0, 251, 230">
+  <g id="Layer_1">
+    <g>
+      <path d="M40.5,106 C33.32,106 27.5,100.18 27.5,93 C27.5,85.82 33.32,80 40.5,80 C47.68,80 53.5,85.82 53.5,93 C53.5,100.18 47.68,106 40.5,106 z" fill="#4CEC00"/>
+      <path d="M40.5,106 C33.32,106 27.5,100.18 27.5,93 C27.5,85.82 33.32,80 40.5,80 C47.68,80 53.5,85.82 53.5,93 C53.5,100.18 47.68,106 40.5,106 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M124.5,82 C117.32,82 111.5,76.18 111.5,69 C111.5,61.82 117.32,56 124.5,56 C131.68,56 137.5,61.82 137.5,69 C137.5,76.18 131.68,82 124.5,82 z" fill="#F42300"/>
+      <path d="M124.5,82 C117.32,82 111.5,76.18 111.5,69 C111.5,61.82 117.32,56 124.5,56 C131.68,56 137.5,61.82 137.5,69 C137.5,76.18 131.68,82 124.5,82 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M40.5,202 C33.32,202 27.5,196.18 27.5,189 C27.5,181.82 33.32,176 40.5,176 C47.68,176 53.5,181.82 53.5,189 C53.5,196.18 47.68,202 40.5,202 z" fill="#4CEC00"/>
+      <path d="M40.5,202 C33.32,202 27.5,196.18 27.5,189 C27.5,181.82 33.32,176 40.5,176 C47.68,176 53.5,181.82 53.5,189 C53.5,196.18 47.68,202 40.5,202 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M40.5,154 C33.32,154 27.5,148.18 27.5,141 C27.5,133.82 33.32,128 40.5,128 C47.68,128 53.5,133.82 53.5,141 C53.5,148.18 47.68,154 40.5,154 z" fill="#4CEC00"/>
+      <path d="M40.5,154 C33.32,154 27.5,148.18 27.5,141 C27.5,133.82 33.32,128 40.5,128 C47.68,128 53.5,133.82 53.5,141 C53.5,148.18 47.68,154 40.5,154 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M208.5,178 C201.32,178 195.5,172.18 195.5,165 C195.5,157.82 201.32,152 208.5,152 C215.68,152 221.5,157.82 221.5,165 C221.5,172.18 215.68,178 208.5,178 z" fill="#00EFF2"/>
+      <path d="M208.5,178 C201.32,178 195.5,172.18 195.5,165 C195.5,157.82 201.32,152 208.5,152 C215.68,152 221.5,157.82 221.5,165 C221.5,172.18 215.68,178 208.5,178 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M208.5,130 C201.32,130 195.5,124.18 195.5,117 C195.5,109.82 201.32,104 208.5,104 C215.68,104 221.5,109.82 221.5,117 C221.5,124.18 215.68,130 208.5,130 z" fill="#00EFF2"/>
+      <path d="M208.5,130 C201.32,130 195.5,124.18 195.5,117 C195.5,109.82 201.32,104 208.5,104 C215.68,104 221.5,109.82 221.5,117 C221.5,124.18 215.68,130 208.5,130 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M124.5,226 C117.32,226 111.5,220.18 111.5,213 C111.5,205.82 117.32,200 124.5,200 C131.68,200 137.5,205.82 137.5,213 C137.5,220.18 131.68,226 124.5,226 z" fill="#F42300"/>
+      <path d="M124.5,226 C117.32,226 111.5,220.18 111.5,213 C111.5,205.82 117.32,200 124.5,200 C131.68,200 137.5,205.82 137.5,213 C137.5,220.18 131.68,226 124.5,226 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M124.5,178 C117.32,178 111.5,172.18 111.5,165 C111.5,157.82 117.32,152 124.5,152 C131.68,152 137.5,157.82 137.5,165 C137.5,172.18 131.68,178 124.5,178 z" fill="#F42300"/>
+      <path d="M124.5,178 C117.32,178 111.5,172.18 111.5,165 C111.5,157.82 117.32,152 124.5,152 C131.68,152 137.5,157.82 137.5,165 C137.5,172.18 131.68,178 124.5,178 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <g>
+      <path d="M124.5,130 C117.32,130 111.5,124.18 111.5,117 C111.5,109.82 117.32,104 124.5,104 C131.68,104 137.5,109.82 137.5,117 C137.5,124.18 131.68,130 124.5,130 z" fill="#F42300"/>
+      <path d="M124.5,130 C117.32,130 111.5,124.18 111.5,117 C111.5,109.82 117.32,104 124.5,104 C131.68,104 137.5,109.82 137.5,117 C137.5,124.18 131.68,130 124.5,130 z" fill-opacity="0" stroke="#000000" stroke-width="2"/>
+    </g>
+    <path d="M53.5,93 L111.5,69" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,93 L111.5,117" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,93 L111.5,165" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,93 L111.5,213" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,141 L111.5,69" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,141 L111.5,117" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,141 L111.5,165" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,141 L111.5,213" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,189 L111.5,165" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,189 L111.5,117" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,189 L111.5,69" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M53.5,189 L111.5,213" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,69 L195.5,117" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,69 L195.5,165" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,117 L195.5,117" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,117 L195.5,165" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,165 L195.5,117" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,165 L195.5,165" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,213 L195.5,117" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <path d="M137.5,213 L195.5,165" fill-opacity="0" stroke="#000000" stroke-width="0.75"/>
+    <text transform="matrix(1, 0, 0, 1, 35.847, 46.5)">
+      <tspan x="-21.108" y="-5.5" font-family="TimesNewRomanPSMT" font-size="20" fill="#000000">Input </tspan>
+      <tspan x="-23.315" y="17.5" font-family="TimesNewRomanPSMT" font-size="20" fill="#000000">Layer</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 210.516, 71.5)">
+      <tspan x="-27.778" y="-5.5" font-family="TimesNewRomanPSMT" font-size="20" fill="#000000">Output </tspan>
+      <tspan x="-23.315" y="17.5" font-family="TimesNewRomanPSMT" font-size="20" fill="#000000">Layer</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 121.678, 25.5)">
+      <tspan x="-29.438" y="-5.5" font-family="TimesNewRomanPSMT" font-size="20" fill="#000000">Hidden </tspan>
+      <tspan x="-23.315" y="17.5" font-family="TimesNewRomanPSMT" font-size="20" fill="#000000">Layer</tspan>
+    </text>
+  </g>
+</svg>
